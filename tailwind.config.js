@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio : {
+        card : '1 / 1.4'
+      }
+    },
   },
   plugins: [],
 }
