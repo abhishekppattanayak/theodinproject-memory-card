@@ -32,7 +32,7 @@ export default function App () {
 
   function setBestScore () {
     setBest(prev => max([prev, current-1]))
-    localStorage.setItem('BestScore', JSON.stringify(best))
+    localStorage.setItem('BestScore', JSON.stringify(max([best, current-1])))
   }
   
   return (
