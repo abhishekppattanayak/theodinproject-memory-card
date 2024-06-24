@@ -18,6 +18,7 @@ export default function App () {
   useEffect(()=>{
     if(current == 12) {
       setWin(true)
+      setBestScore()
     }
   }, [current])
 
