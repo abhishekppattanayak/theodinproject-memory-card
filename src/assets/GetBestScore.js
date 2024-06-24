@@ -1,3 +1,3 @@
 export default function getBestScore () {
-  return JSON.parse(localStorage.getItem('bestScore')) ?? 0
+  return JSON.parse(localStorage.getItem('BestScore')) ?? 0
 }
